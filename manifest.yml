@@ -1,0 +1,6 @@
+---
+applications:
+- name: onlinecourcesforlearners1212
+  memory: 256M
+  host: onlinecourcesforlearners1212
+  domain: mybluemix.net
