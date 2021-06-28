@@ -6,10 +6,13 @@
 body{
   font-family: Calibri, Helvetica, sans-serif;
   
+  font-size: 17px;
+  padding: 8px;
 }
 .container {
     padding: 50px;
-  background-color: #a83296;
+  background-color: white;
+  background-border:black;
 }
 
 input[type=text], input[type=password], textarea {
@@ -21,7 +24,7 @@ input[type=text], input[type=password], textarea {
   background: #f1f1f1;
 }
 input[type=text]:focus, input[type=password]:focus {
-  background-color: white;
+  background-color: grey;
   outline: none;
   color:black;
 }
@@ -49,13 +52,21 @@ hr {
     font-weight: 500;
 }
 
-
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
 </style>
 </head>
 <body>
 <form>
   <div class="container">
-  <center>  <h1> Apply now for these Courses</h1> </center>
+  <center>  <h1><marquee><font color="red">Apply for Artificial Intelligence</marquee></font> </h1> </center>
   <hr>
   <label> Firstname </label> 
 <input type="text" name="firstname" placeholder= "Firstname" size="15" required /> 
@@ -68,10 +79,9 @@ Course :
 </label> 
 
 <select>
-<option value="Course">Course</option>
 <option value="AI">Artificial Intelligence</option>
 <option value="DA">Data Analyst</option>
-<option value="FSD">Full Stack Devlopment</option>
+<option value="FSD">Full Stack Development</option>
 
 </select>
 </div>
@@ -87,21 +97,56 @@ Gender :
 <label> 
 Phone :
 </label>
-<input type="number" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
-<input type="number" name="phone" placeholder="phone no." size="10"/ required> 
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
+
 Current Address :
 <textarea cols="80" rows="5" placeholder="Current Address" value="address" required></textarea>
- <label for="email"><b>Email</b></label>  
- <input type="email" placeholder="Enter Email" name="email" required>  
+      <label for="email">Email</label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
   
-    <label for="psw"><b>Password</b></label>  
-    <input type="password" placeholder="Enter Password" name="psw" required>  
+    <label for="psw">Password</label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  <br>
   
-    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <label for="psw-repeat">Re-type Password</label>  
     <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
-    <button type="submit" class="registerbtn">Apply Now</button>    
+    
+     <div class="col-50">
+            <h3>Payment method</h3>
+            <label>Accepted Cards</label>
+         <select>
+            <option value="visa">visa</option>
+             <option value="master">master</option>
+                <option value="Rupay">Rupay</option>
+                  <option value="dy">discovery</option>
+
+                    </select> 
+           <br><br>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="write card name">
+            <label for="ccnum">Credit card number</label>
+         
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="write expire month">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="write expire year">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="write cvv">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+    <button type="submit" onclick="myFunction()"  class="registerbtn">Apply Now</button>    
+     <script>
+function myFunction() {
+  location.replace("index.jsp")
+}
+</script>
 </form>  
-</form>
 </body>
 </html>
-
