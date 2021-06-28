@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Elearning Platform </title>
+        <title>Online learn professional Courses</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
        
 
@@ -93,15 +93,14 @@
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto">
                                 <a href="index.jsp" class="nav-item nav-link active">Home</a>
-                               <a href="#about" class="nav-item nav-link">About</a>
-                                <a href="#price" class="nav-item nav-link">pricing</a>
-                                <a href="#cource" class="nav-item nav-link">Courses</a>
-                               
+                               <a href="#about" class="nav-item nav-link ">About</a>
+                                <a href="#price" class="nav-item nav-link ">price</a>
+                                <a href="#cource" class="nav-item nav-link ">Courses</a>
+                                <a href="login.jsp" class="nav-item nav-link ">Sign In</a>
+                                <a href="Register.jsp" class="nav-item nav-link ">Sign Up</a>
                             </div>
                             <div class="ml-auto">
-                                <a class="btn" href="apply.jsp">Apply Now</a>
-                            </div>
-                        </div>
+                                
                     </nav>
                 </div>
             </div>
@@ -128,7 +127,7 @@
                         <img src="img/carousel-2.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
                             <p class="animated fadeInRight">Professional Courses</p>
-                            <h1 class="animated fadeInLeft">We Help you build Your Career in Artificial Inteligence</h1>
+                            <h1 class="animated fadeInLeft">We Help you build Your Career in Artificial Intelligence</h1>
                            
                         </div>
                     </div>
@@ -137,7 +136,7 @@
                         <img src="img/carousel-3.jpg" alt="Carousel Image">
                         <div class="carousel-caption">
                             <p class="animated fadeInRight">We Are Trusted</p>
-                            <h1 class="animated fadeInLeft">We Help you build Your Career in Full Stack Devlopment</h1>
+                            <h1 class="animated fadeInLeft">We Help you build Your Career in Full Stack Development</h1>
                                                  </div>
                     </div>
                 </div>
@@ -182,7 +181,7 @@
                             <div class="feature-item">
                                
                                 <div class="feature-text">
-                                    <h3>Devlop Your Career</h3>
+                                    <h3>Develop Your Career</h3>
                                     <p>You are fresh out of college or getting back from a break. Launch your career in hot future-proofed areas that require in-demand skills.</p>
                                 </div>
                             </div>
@@ -209,7 +208,7 @@
                             </div>
                             <div class="about-text">
                                 <p>
-                                    our website you can learn  Artificial intelligence ,data anlyst & full stack devloper profetional technical skills 
+                                    our website you can learn  Artificial intelligence ,data analyst & full stack developer professional technical skills 
                                 </p>
                                 
                                    <p> whose is highly demanded our future & current with verified certificate    </p>
@@ -242,9 +241,9 @@
                             <div class="price-body">
                                 <div class="price-description">
                                     <ul>
-                                        <li>cover all sylabuss</li>
+                                        <li>cover all syllabus</li>
                                         <li>with expert mentors</li>
-                                        <li>certificate cource</li>
+                                        <li>certificate course</li>
                                         <li>for 6month</li>
                                         
                                     </ul>
@@ -252,7 +251,7 @@
                             </div>
                             <div class="price-footer">
                                 <div class="price-action">
-                                    <a class="btn" href="apply.jsp">Book Now</a>
+                                    <a class="btn" href="da.jsp">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +260,7 @@
                         <div class="price-item featured-item">
                             <div class="price-header">
                                 <div class="price-title">
-                                    <h2>Artificial Inteligence</h2>
+                                    <h2>Artificial Intelligence</h2>
                                 </div>
                                 <div class="price-prices">
                                     <p>6999Rs</p>
@@ -288,7 +287,7 @@
                         <div class="price-item">
                             <div class="price-header">
                                 <div class="price-title">
-                                    <h2>Full Stack Devloper</h2>
+                                    <h2>Full Stack Developer</h2>
                                 </div>
                                 <div class="price-prices">
                                     <p>4449Rs.</p>
@@ -297,16 +296,16 @@
                             <div class="price-body">
                                 <div class="price-description">
                                     <ul>
-                                         <li>cover all sylabuss</li>
+                                         <li>cover all syllabus</li>
                                         <li>with expert mentors</li>
-                                        <li>certificate cource</li>
+                                        <li>certificate course</li>
                                         <li>for 6month</li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="price-footer">
                                 <div class="price-action">
-                                    <a class="btn" href="apply.jsp">Book Now</a>
+                                    <a class="btn" href="fsd.jsp">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -332,60 +331,78 @@
                                 </div>
                                 <div class="team-text">
                                     <h2>Data Analyst</h2>
+                                    <h4>skills Covered</h4>
+                                    <p>Types of data analytics</p>
+                                    <p>Frequency distribution plots</p>
+                                    <p>Data visualization</p>
+                                    <p>Data science methodologies</p>
+                                    <p>Analytics adoption frameworks</p>
+                                    <p>Trends in data analytics</p>
+                                    <p>Swarm plots</p>
                                     <p>Duration :6month</p>
                                     <p>Mode Online</p>
                                   <div class="ml-auto">
-                                <a class="btn" href="apply.jsp">Enroll now</a>
+                                <a class="btn" href="da.jsp">Enroll now</a>
                             </div>
                                 </div>
                                 <div class="team-social">
-                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="social-tw" href="https://ads.twitter.com/accounts"><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="team-item">
                                 <div class="team-img">
-                                    <img src="img/AI.jpg" alt="Team Image">
+                                    <img src="img/a1.jpg" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>Artificial Inteligence</h2>
-                                    <p>Duration :12month</p>
+                                    <h2>Artificial Intelligence</h2>
+                                    <h4>Skill Covered</h4>
+                                    <p>Artificial Intelligence and Robotics</p>
+                                    <p>Machine Learning Theory and Practice – Building a Machine Learning Toolbox</p>
+                                    <p>The Management, Roles and Responsibilities of Humans and Machines – The Future ofAI.</p>
+          
+                          <p>Duration :12month</p>
                                     <p>Mode Online</p>
                                   <div class="ml-auto">
                                 <a class="btn" href="apply.jsp">Enroll now</a>
                             </div>
                                 </div>
                                 <div class="team-social">
-                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="social-tw" href="https://ads.twitter.com/accounts"><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="team-item">
                                 <div class="team-img">
-                                    <img src="img/fsd.jpg" alt="Team Image">
+                                    <img src="img/fsd1.jpg" alt="Team Image">
                                 </div>
                                 <div class="team-text">
-                                    <h2>Full Stack Devlopment</h2>
+                                    <h2>Full Stack Development</h2>
+                                    <h4>Skill Covered</h4>
+                                    <p>Program a browser (like using JavaScript, jQuery, Angular, or Vue)</p>
+                                    <p>Program a server (like using PHP, ASP, Python, or Node)</p>
+                                    <p>Program a database (like using SQL, SQLite, or MongoDB) </p>
+                                   <p>mastering HTML and CSS</p>
                                     <p>Duration :6month</p>
-                                    <p>Mode Online :6month</p>
+                                    <p>Mode Online</p>
                                   <div class="ml-auto">
-                                <a class="btn" href="apply.jsp">Enroll now</a>
+                                <a class="btn" href="fsd.jsp">Enroll now</a>
                             </div>
                                 </div>
-                                <div class="team-social">
-                                    <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                                  <div class="team-social">
+                                    <a class="social-tw" href="https://ads.twitter.com/accounts"><i class="fab fa-twitter"></i></a>
+                                    <a class="social-fb" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="social-li" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="social-in" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                              </div>
                             </div>
                         </div>
                         
@@ -417,8 +434,8 @@
                         </div>
                         <div class="col-md-6 col-lg-3">
                             <div class="footer-link">
-                                <h2>Cources Available</h2>
-                                <a href="">Artificial Inteligence 8:00AM to 11:00AM</a>
+                                <h2>Courses Available</h2>
+                                <a href="">Artificial Intelligence 8:00AM to 11:00AM</a>
                                 <a href="">Data Analyst 12:00PM to 2:00PM</a>
                                 <a href="">Full Stack Devloper 2:30PM TO 5:30PM  </a>
                                                                                     
@@ -429,7 +446,7 @@
                             <div class="footer-link">
                                 <h2>Useful Pages</h2>
                                 <a href="">About Us</a>
-                                <a href="">pricing</a>
+                                <a href="">price</a>
                                 <a href="">Courses</a>
                                 
                             </div>
